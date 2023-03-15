@@ -26,3 +26,95 @@
   background-size: cover;
   background-position: center;
 }
+
+.search-form {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  background: #baba36;
+}
+
+.container {
+  max-width: 1490;
+  margin: 0 auto;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 45px;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+.photo-card {
+  background: #baba36;
+  width: 270px;
+  border-radius: 10px;
+  border: 1px solid rgb(87, 75, 33);
+}
+
+.photo {
+  align-items: center;
+  width: 260px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.images {
+  display: block;
+  margin: 5px;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.info {
+  margin: 15px;
+  padding: 10px;
+  background-color: #e0c58a7e;
+  border-radius: 10px;
+}
+
+.input {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 300px;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+  border: 1px solid rgb(112, 95, 31);
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  padding: 5px 20px;
+  all: unset;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+
+  width: 100px;
+  height: 30px;
+
+  font-size: 16px;
+  background: #baba36;
+  border: 1px solid rgb(112, 95, 31);
+  position: relative;
+  color: black;
+  cursor: pointer;
+  // white-space: nowrap;
+  // user-select: none;
+  // -webkit-user-select: none;
+  // touch-action: manipulation;
+}

@@ -58,7 +58,7 @@ async function pixabay(name, page) {
   // параметри запиту на бекенд
   const options = {
     params: {
-      key: MY_API_KEY, // мій персональний ключ з pixabay
+      key: KEY_API, // мій персональний ключ з pixabay
       q: name,
       image_type: 'photo',
       orientation: 'horizontal',
