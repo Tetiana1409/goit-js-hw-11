@@ -103,18 +103,12 @@ button {
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 4px;
-
   width: 100px;
   height: 30px;
-
+  cursor: pointer;
   font-size: 16px;
   background: #baba36;
   border: 1px solid rgb(112, 95, 31);
   position: relative;
   color: black;
-  cursor: pointer;
-  // white-space: nowrap;
-  // user-select: none;
-  // -webkit-user-select: none;
-  // touch-action: manipulation;
 }

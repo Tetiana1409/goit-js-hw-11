@@ -145,31 +145,7 @@ function createMarkup(stock) {
 
   refs.gallery.insertAdjacentHTML('beforeend', imgStock); // вставлення розмітки на сторінку
   simpleLightBox.refresh(); // Бібліотека містить метод refresh(), який обов'язково потрібно викликати щоразу після додавання нової групи карток зображень.
-
-  // ПЕРЕВІРКА - на кнопку Load more
-  // if (stock.length === 40) {
-  //     refs.btnLoadMore.style.display = 'flex'; // показуємо кнопку Load more
-  // }else if (stock.length === 0){
-  //     refs.btnLoadMore.style.display = 'none'; // ховаємо кнопку Load more
-  //     return Notiflix.Notify.failure(
-  //         `Sorry, there are no images matching your search query. Please try again.`
-  //         ,{width:'350px', borderRadius: '10px', position: 'center-center',clickToClose: true, useIcon: false,}
-  //         );
-  // }else if (stock.length > 1 || stock.length < 40 ){
-  //     refs.btnLoadMore.style.display = 'none'; // ховаємо кнопку Load more
-  //     return Notiflix.Notify.info(
-  //         `We're sorry, but you've reached the end of search results.`
-  //         ,{width:'350px', borderRadius: '10px', position: 'center-center',clickToClose: true, useIcon: false,}
-  //         );
-  // }
 }
-
-// ФУНКЦІЯ - на кнопку Load more
-// function loadMore (){
-//     refs.btnLoadMore.style.display = 'none'; // ТЗ - При повторному сабміті форми кнопка спочатку ховається, а після запиту знову відображається.
-//     pixabay(PHOTO_NAME, page++);
-
-// }
 
 // НАЛАШТУВАННЯ - Слайдер зображень SimpleLightbox
 const simpleLightBox = new SimpleLightbox('.gallery a', {
